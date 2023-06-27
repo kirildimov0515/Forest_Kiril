@@ -1,0 +1,23 @@
+body{
+	background-image: linear-gradient(to right bottom, #00CC00, #39E639,#00BF32);
+	font-size: 25px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+table{
+    font-size: 25px;
+    text-align: center;
+}
+table , td{
+    border: 10px double rgb(1, 1, 94);
+}
+td:hover{
+    font-size: 50px;
+	transition: 180ms font-size linear;
+}
+main{
+	margin-top: 15%;
+}

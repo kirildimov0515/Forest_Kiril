@@ -1,0 +1,20 @@
+body{
+	background-image: linear-gradient(to right bottom, #00CC00, #39E639,#00BF32);
+	font-size: 25px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	width: 500px;
+	height: 250px;
+	opacity: 0.5;
+}
+img:hover{
+	width: 600px;
+	height: 300px;
+	opacity: 1;
+	border: 20px double darkblue;
+}

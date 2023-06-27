@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to right bottom, #00CC00, #39E639,#00BF32);
+	text-align: center;
+	font-size: 25px;
+    position: relative;
+}
+footer,main,header,nav{
+	position: relative;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    border: 10px solid #000;
+    position: relative;
+    left: 19%;
+}
+.slider input[name="switch"]{
+    display: none;
+}
+.switch{
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgda(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #2f363c;
+    background-color: #738290;
+}
+.bar:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 25%;
+    transition: all 0.6s ease;
+}
+.img{
+    width: 1000px;
+    height: 500px;
+}
+#btn1:checked~.s1{
+    margin-left: 0;
+}
+#btn2:checked~.s1{
+    margin-left: -25%;
+}
+#btn3:checked~.s1{
+    margin-left: -50%;
+}
+#btn4:checked~.s1{
+    margin-left: -75%;
+}
+#btn5:checked~.s1{
+    margin-left: -100%;
+}
+#btn6:checked~.s1{
+    margin-left: -125%;
+}
+#btn7:checked~.s1{
+    margin-left: -150%;
+}
+#btn8:checked~.s1{
+    margin-left: -175%;
+}
+#btn9:checked~.s1{
+    margin-left: -200%;
+}
+#btn10:checked~.s1{
+    margin-left: -225%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.slider{
+    animation-name: circle;
+    animation-duration: 2.5s;
+}
+@keyframes circle{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 50%;
+    }
+    40%{
+        left: 100%;
+    }
+    80%{
+        left: 50%;
+    }
+    100%{
+        left: 19%;
+    }
+}

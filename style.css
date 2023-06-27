@@ -1,0 +1,31 @@
+body{
+	background-image: linear-gradient(to right bottom, #00CC00, #39E639,#00BF32);
+	font-size: 25px;
+	text-align: center;
+}
+main p{
+	border: 5px dashed black;
+	border-radius: 50px;
+	margin: 25px;
+}
+main p:hover{
+	font-size: 50px;
+	border: 10px dashed black;
+	border-radius: 50px;
+	margin: 50px;
+	transition: 5s font-size linear;
+}
+.a,.href, a{
+	text-decoration: none;
+	color: black;
+}
+.img:hover,.src:hover{
+	opacity:1;
+	transition: 2.5s opacity linear;
+}
+.img,.src{
+	opacity:0;
+}
+main{
+	margin-top: 15%;
+}
